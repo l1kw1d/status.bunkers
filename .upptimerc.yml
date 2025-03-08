@@ -80,7 +80,7 @@ status-website:
 
 notifications:
   email:
-    to: "your-pushover-email@example.com"
+    to: 
     subject: "[ALERT] {{name}} - {{status}}"
     body: |
       **Status Alert: {{name}}**
