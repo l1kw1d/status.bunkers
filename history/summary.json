@@ -16,7 +16,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2025-03-08": 0
+      "2025-03-08": 2
     }
   },
   {
@@ -36,7 +36,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2025-03-08": 0
+      "2025-03-08": 1
     }
   },
   {
@@ -45,18 +45,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "bunkers-vpn-endpoint",
     "status": "down",
-    "uptime": "1.69%",
-    "uptimeDay": "1.69%",
-    "uptimeWeek": "1.69%",
-    "uptimeMonth": "1.69%",
-    "uptimeYear": "1.69%",
+    "uptime": "0.57%",
+    "uptimeDay": "0.57%",
+    "uptimeWeek": "0.57%",
+    "uptimeMonth": "0.57%",
+    "uptimeYear": "0.57%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2025-03-08": 0
+      "2025-03-08": 1
     }
   },
   {
@@ -76,7 +76,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2025-03-08": 0
+      "2025-03-08": 1
     }
   },
   {
@@ -96,7 +96,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2025-03-08": 0
+      "2025-03-08": 1
     }
   },
   {
@@ -249,18 +249,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/pushover.net.ico",
     "slug": "pushover-api-health",
     "status": "down",
-    "uptime": "0.68%",
-    "uptimeDay": "0.68%",
-    "uptimeWeek": "0.68%",
-    "uptimeMonth": "0.68%",
-    "uptimeYear": "0.68%",
+    "uptime": "0.83%",
+    "uptimeDay": "0.83%",
+    "uptimeWeek": "0.83%",
+    "uptimeMonth": "0.83%",
+    "uptimeYear": "0.83%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2025-03-08": 0
+      "2025-03-08": 1
     }
   }
 ]
