@@ -1,10 +1,111 @@
-owner: l1kw1d # GitHub username
-repo: status.bunkers # GitHub repository name
-sites: # List of endpoints to track
-  - name: Google
-    url: https://www.google.com
-assignees: # Users to assign downtime issues (optional)
-  - l1kw1d
-status-website: # Status website (optional)
-  cname: status.bunkers.co # Custom domain CNAME
-  name: Bunkers Status # Status website title
+owner: l1kw1d
+repo: status.bunkers
+user-agent: l1kw1d
+
+sites:
+  # 🔐 Internal Infrastructure (HIDDEN with GitHub Secrets)
+  - name: Bunkers Main Website
+    url: ${{ secrets.BUNKERS_MAIN_SITE }}
+    check: "http"
+  - name: Bunkers API
+    url: ${{ secrets.BUNKERS_API }}
+    check: "http"
+    headers:
+      - "Authorization: Bearer ${{ secrets.BUNKERS_API_TOKEN }}"
+      - "User-Agent: BunkersCyberDefense-Monitor"
+  - name: Bunkers VPN Endpoint
+    url: ${{ secrets.BUNKERS_VPN }}
+    port: 443
+    check: "tcp-ping"
+    hidden: true
+  - name: Bunkers Email Gateway
+    url: ${{ secrets.BUNKERS_MAIL }}
+    port: 25
+    check: "tcp-ping"
+    hidden: true
+  - name: Bunkers Security Portal
+    url: ${{ secrets.BUNKERS_SECURITY_PORTAL }}
+    check: "http"
+    hidden: true
+
+  # 🌍 External Cybersecurity & Threat Intelligence
+  - name: Microsoft 365 Authentication
+    url: https://status.office365.com
+    expectedStatusCodes:
+      - 200
+      - 202
+  - name: AWS Cloud Services
+    url: https://status.aws.amazon.com
+  - name: Google Cloud Core Services
+    url: https://status.cloud.google.com
+  - name: Cloudflare Network Status
+    url: https://www.cloudflarestatus.com
+  - name: GitHub CI/CD & Repo Access
+    url: https://www.githubstatus.com
+  - name: 1Password Security Updates
+    url: https://1password.statuspage.io
+  - name: VirusTotal API Health
+    url: https://www.virustotal.com
+    check: "http"
+    method: GET
+  - name: Have I Been Pwned?
+    url: https://haveibeenpwned.com
+
+  # 📢 Third-Party SaaS & Communication (Monitored for Service Disruptions)
+  - name: Pushover API Health
+    url: https://pushover.net/status
+  
+
+status-website:
+  cname: status.bunkers.co
+  logoUrl: https://bunkers.co/logo.svg
+  name: Bunkers Status
+  introTitle: "**Bunkers Cyber Defense Status Page**"
+  introMessage: |
+    Welcome to the **Bunkers Cyber Defense** monitoring dashboard.  
+    We provide **real-time updates** on the availability and security of our internal services, 
+    as well as third-party providers we rely on.
+
+  navbar:
+    - title: Status
+      href: /
+    - title: Security Advisory
+      href: https://privacy.bunkers.co/security-privacy
+
+  theme:
+    name: dark
+    primaryColor: "#1a1a2e"
+    secondaryColor: "#16213e"
+    accentColor: "#0f3460"
+
+notifications:
+  email:
+    to: "your-pushover-email@example.com"
+    subject: "[ALERT] {{name}} - {{status}}"
+    body: |
+      **Status Alert: {{name}}**
+      - Status: {{status}}
+      - Response Time: {{responseTime}} ms
+      - Last Checked: {{lastCheck}}
+      - More Info: [View Status Page](https://status.bunkers.co)
+
+uptime-checks:
+  interval: 3 # Check every 3 minutes
+  retries: 3
+  timeout: 8 # seconds
+
+history:
+  keep: 120 # Keep history for 120 days
+
+alerts:
+  notifyOn:
+    - outage
+    - degradedPerformance
+    - majorUpdate
+
+  autoCloseIssues: true
+
+commitMessages:
+  summaryJson: ":bar_chart: Update status summary [skip ci] [upptime]"
+  statusChange: ":warning: {{name}} is {{status}} ({{responseCode}} in {{responseTime}} ms) [skip ci] [upptime]"
+  graphsUpdate: ":chart_with_upwards_trend: Update graphs [skip ci] [upptime]"
