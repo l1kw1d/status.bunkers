@@ -1,0 +1,7 @@
+url: ${{ secrets.BUNKERS_MAIL }}
+status: down
+code: 0
+responseTime: 0
+lastUpdated: 2025-03-08T15:04:27.436Z
+startTime: 2025-03-08T15:04:27.433Z
+generator: Upptime <https://github.com/upptime/upptime>
