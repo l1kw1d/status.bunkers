@@ -1,7 +1,7 @@
-url: ${{ secrets.BUNKERS_MAIN_SITE }}
+url: https://bunkers.co
 status: down
-code: 0
-responseTime: 0
-lastUpdated: 2025-03-08T15:05:30.853Z
+code: 403
+responseTime: 67
+lastUpdated: 2025-03-08T15:09:34.633Z
 startTime: 2025-03-08T15:04:22.328Z
 generator: Upptime <https://github.com/upptime/upptime>
