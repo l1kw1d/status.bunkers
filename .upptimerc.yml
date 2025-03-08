@@ -35,12 +35,6 @@ status-website:
     - title: Security Advisory
       href: https://privacy.bunkers.co/security-privacy
 
-  theme:
-    name: dark
-    primaryColor: "#1a1a2e"
-    secondaryColor: "#16213e"
-    accentColor: "#0f3460"
-
 notifications:
   email:
     to: 
