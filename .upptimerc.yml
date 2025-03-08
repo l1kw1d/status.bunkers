@@ -28,3 +28,5 @@ status-website:
     - title: Security
       href: https://privacy.bunkers.co/security-privacy
 
+i18n:
+  footer:[Bunkers Status]($REPO), - [Bunkers](https://bunkers.co)
