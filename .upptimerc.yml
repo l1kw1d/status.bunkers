@@ -4,22 +4,22 @@ repo: status.bunkers # The name of this repository
 user-agent: l1kw1d
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
+  - name: Bunkers
+    url: https://bunkers.co
+  - name: Zombie Graphique
+    url: https://zombiegraphique.com
+  - name: Maçonnerie David Deschambault Inc.
+    url: https://maconneriemdd.com
   
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: status.bunkers.co
   # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+  logoUrl: https://privacy.bunkers.co/logo.quebec.inc.jpeg
   name: Bunkers Status
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  introTitle: "**Bunkers** status, powered entirely by GitHub."
+  introMessage: "🛡️ **Bunkers Status** – Surveillance en temps réel de notre infrastructure et services critiques pour une cybersécurité maximale. 📡  "
   navbar:
     - title: Status
       href: /
