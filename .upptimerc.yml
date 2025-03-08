@@ -12,14 +12,8 @@ sites:
     port: 587
     check: "tcp-ping"
     hidden: true
-    
-  
-  # 📢 Third-Party SaaS & Communication (Monitored for Service Disruptions)
-  - name: Pushover API Health
-    url: https://pushover.net/status
-  
 
-status-website:
+  status-website:
   cname: status.bunkers.co
   logoUrl: https://bunkers.co/logo.svg
   name: Bunkers Status
