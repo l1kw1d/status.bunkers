@@ -7,11 +7,6 @@ sites:
   - name: Bunkers Main Website
     url: https://bunkers.co
     check: "http"
-  - name: Bunkers Email Gateway
-    url: em.zombie.solutions
-    port: 587
-    check: "tcp-ping"
-    hidden: true
 
   status-website:
   cname: status.bunkers.co
