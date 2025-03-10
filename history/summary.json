@@ -45,18 +45,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/maconneriemdd.com.ico",
     "slug": "maconnerie-david-deschambault-inc",
     "status": "down",
-    "uptime": "70.02%",
+    "uptime": "69.38%",
     "uptimeDay": "66.84%",
-    "uptimeWeek": "70.02%",
-    "uptimeMonth": "70.02%",
-    "uptimeYear": "70.02%",
+    "uptimeWeek": "69.38%",
+    "uptimeMonth": "69.38%",
+    "uptimeYear": "69.38%",
     "time": 588,
     "timeDay": 728,
     "timeWeek": 588,
     "timeMonth": 588,
     "timeYear": 588,
     "dailyMinutesDown": {
-      "2025-03-09": 475,
+      "2025-03-10": 16,
+      "2025-03-09": 476,
       "2025-03-08": 85
     }
   }
