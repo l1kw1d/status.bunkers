@@ -1,7 +1,7 @@
 url: https://maconneriemdd.com
-status: up
-code: 200
-responseTime: 472
-lastUpdated: 2025-03-20T21:57:42.392Z
+status: down
+code: 429
+responseTime: 128
+lastUpdated: 2025-03-20T22:18:52.006Z
 startTime: 2025-03-08T16:45:19.197Z
 generator: Upptime <https://github.com/upptime/upptime>
