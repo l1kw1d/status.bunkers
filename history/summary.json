@@ -24,19 +24,19 @@
     "url": "https://zombiegraphique.com",
     "icon": "https://icons.duckduckgo.com/ip3/zombiegraphique.com.ico",
     "slug": "zombie-graphique",
-    "status": "down",
-    "uptime": "96.39%",
-    "uptimeDay": "35.05%",
-    "uptimeWeek": "90.72%",
-    "uptimeMonth": "96.39%",
-    "uptimeYear": "96.39%",
-    "time": 133,
-    "timeDay": 155,
-    "timeWeek": 136,
-    "timeMonth": 133,
-    "timeYear": 133,
+    "status": "up",
+    "uptime": "96.34%",
+    "uptimeDay": "34.11%",
+    "uptimeWeek": "90.59%",
+    "uptimeMonth": "96.34%",
+    "uptimeYear": "96.34%",
+    "time": 131,
+    "timeDay": 148,
+    "timeWeek": 132,
+    "timeMonth": 131,
+    "timeYear": 131,
     "dailyMinutesDown": {
-      "2025-03-26": 935,
+      "2025-03-26": 949,
       "2025-03-08": 4
     }
   },
@@ -45,15 +45,15 @@
     "url": "https://maconneriemdd.com",
     "icon": "https://icons.duckduckgo.com/ip3/maconneriemdd.com.ico",
     "slug": "maconnerie-david-deschambault-inc",
-    "status": "up",
-    "uptime": "85.31%",
+    "status": "down",
+    "uptime": "85.38%",
     "uptimeDay": "33.08%",
-    "uptimeWeek": "62.08%",
-    "uptimeMonth": "85.31%",
-    "uptimeYear": "85.31%",
+    "uptimeWeek": "62.24%",
+    "uptimeMonth": "85.38%",
+    "uptimeYear": "85.38%",
     "time": 311,
-    "timeDay": 257,
-    "timeWeek": 282,
+    "timeDay": 258,
+    "timeWeek": 281,
     "timeMonth": 311,
     "timeYear": 311,
     "dailyMinutesDown": {
@@ -62,7 +62,7 @@
       "2025-03-24": 657,
       "2025-03-23": 460,
       "2025-03-22": 498,
-      "2025-03-21": 708
+      "2025-03-21": 692
     }
   }
 ]
