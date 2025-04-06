@@ -27,7 +27,7 @@
     "status": "up",
     "uptime": "91.95%",
     "uptimeDay": "92.59%",
-    "uptimeWeek": "84.51%",
+    "uptimeWeek": "84.64%",
     "uptimeMonth": "91.95%",
     "uptimeYear": "91.95%",
     "time": 118,
@@ -53,15 +53,15 @@
     "url": "https://maconneriemdd.com",
     "icon": "https://icons.duckduckgo.com/ip3/maconneriemdd.com.ico",
     "slug": "maconnerie-david-deschambault-inc",
-    "status": "up",
-    "uptime": "90.30%",
-    "uptimeDay": "71.83%",
-    "uptimeWeek": "60.54%",
-    "uptimeMonth": "90.30%",
-    "uptimeYear": "90.30%",
+    "status": "down",
+    "uptime": "90.42%",
+    "uptimeDay": "72.33%",
+    "uptimeWeek": "61.00%",
+    "uptimeMonth": "90.42%",
+    "uptimeYear": "90.42%",
     "time": 284,
-    "timeDay": 234,
-    "timeWeek": 237,
+    "timeDay": 236,
+    "timeWeek": 236,
     "timeMonth": 284,
     "timeYear": 284,
     "dailyMinutesDown": {
@@ -71,7 +71,7 @@
       "2025-04-03": 637,
       "2025-04-02": 939,
       "2025-04-01": 959,
-      "2025-03-31": 414
+      "2025-03-31": 368
     }
   }
 ]
