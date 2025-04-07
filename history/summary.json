@@ -24,14 +24,14 @@
     "url": "https://zombiegraphique.com",
     "icon": "https://icons.duckduckgo.com/ip3/zombiegraphique.com.ico",
     "slug": "zombie-graphique",
-    "status": "up",
-    "uptime": "92.33%",
+    "status": "down",
+    "uptime": "92.39%",
     "uptimeDay": "93.03%",
     "uptimeWeek": "93.06%",
-    "uptimeMonth": "92.33%",
-    "uptimeYear": "92.33%",
+    "uptimeMonth": "92.39%",
+    "uptimeYear": "92.39%",
     "time": 119,
-    "timeDay": 115,
+    "timeDay": 117,
     "timeWeek": 125,
     "timeMonth": 119,
     "timeYear": 119,
@@ -46,7 +46,7 @@
       "2025-03-30": 688,
       "2025-03-29": 652,
       "2025-03-28": 661,
-      "2025-03-27": 167
+      "2025-03-27": 139
     }
   },
   {
@@ -61,7 +61,7 @@
     "uptimeMonth": "92.18%",
     "uptimeYear": "92.18%",
     "time": 281,
-    "timeDay": 223,
+    "timeDay": 224,
     "timeWeek": 237,
     "timeMonth": 281,
     "timeYear": 281,
