@@ -25,17 +25,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/zombiegraphique.com.ico",
     "slug": "zombie-graphique",
     "status": "up",
-    "uptime": "92.59%",
-    "uptimeDay": "100.00%",
+    "uptime": "92.66%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "96.85%",
-    "uptimeMonth": "92.43%",
-    "uptimeYear": "92.59%",
+    "uptimeMonth": "92.49%",
+    "uptimeYear": "92.66%",
     "time": 120,
     "timeDay": 147,
     "timeWeek": 129,
     "timeMonth": 120,
     "timeYear": 120,
     "dailyMinutesDown": {
+      "2025-04-08": 0,
       "2025-04-07": 100,
       "2025-04-06": 61,
       "2025-04-05": 69,
@@ -46,7 +47,7 @@
       "2025-03-30": 688,
       "2025-03-29": 652,
       "2025-03-28": 661,
-      "2025-03-27": 167
+      "2025-03-27": 139
     }
   },
   {
@@ -56,7 +57,7 @@
     "slug": "maconnerie-david-deschambault-inc",
     "status": "up",
     "uptime": "92.96%",
-    "uptimeDay": "62.56%",
+    "uptimeDay": "63.11%",
     "uptimeWeek": "68.69%",
     "uptimeMonth": "92.80%",
     "uptimeYear": "92.96%",
